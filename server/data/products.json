@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Linen Flow Top",
+    "category": "tops",
+    "price": 320000,
+    "image": "https://images.unsplash.com/photo-1594938298603-c8148c4a8c4f?w=600&q=80",
+    "description": "Effortlessly relaxed linen top in a breezy silhouette.",
+    "badge": "New"
+  },
+  {
+    "id": 2,
+    "name": "Wrap Midi Skirt",
+    "category": "bottoms",
+    "price": 385000,
+    "image": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&q=80",
+    "description": "A versatile wrap skirt that transitions from day to evening.",
+    "badge": null
+  },
+  {
+    "id": 3,
+    "name": "Structured Blazer",
+    "category": "outerwear",
+    "price": 650000,
+    "image": "https://images.unsplash.com/photo-1548369937-47519962c11a?w=600&q=80",
+    "description": "Tailored blazer with a clean, modern silhouette.",
+    "badge": null
+  },
+  {
+    "id": 4,
+    "name": "Slip Dress",
+    "category": "dresses",
+    "price": 420000,
+    "image": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=600&q=80",
+    "description": "Minimalist satin slip dress, elegant for any occasion.",
+    "badge": "New"
+  },
+  {
+    "id": 5,
+    "name": "Wide Leg Trousers",
+    "category": "bottoms",
+    "price": 355000,
+    "image": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=600&q=80",
+    "description": "Easy-draping wide-leg pants in a neutral tone.",
+    "badge": null
+  },
+  {
+    "id": 6,
+    "name": "Ribbed Knit Top",
+    "category": "tops",
+    "price": 275000,
+    "image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9?w=600&q=80",
+    "description": "Soft ribbed knit top, a wardrobe essential.",
+    "badge": "Sale"
+  },
+  {
+    "id": 7,
+    "name": "Pleated Midi Dress",
+    "category": "dresses",
+    "price": 490000,
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80",
+    "description": "Flowy pleated dress with a graceful, feminine silhouette.",
+    "badge": null
+  },
+  {
+    "id": 8,
+    "name": "Cotton Shirt Dress",
+    "category": "dresses",
+    "price": 395000,
+    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=80",
+    "description": "Relaxed cotton shirt dress, effortless and versatile.",
+    "badge": "Sale"
+  },
+  {
+    "id": 9,
+    "name": "Cropped Linen Pants",
+    "category": "bottoms",
+    "price": 310000,
+    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80",
+    "description": "Breathable cropped linen trousers for warm days.",
+    "badge": null
+  },
+  {
+    "id": 10,
+    "name": "Off-Shoulder Blouse",
+    "category": "tops",
+    "price": 290000,
+    "image": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=600&q=80",
+    "description": "Delicate off-shoulder blouse with subtle ruffle detail.",
+    "badge": "New"
+  },
+  {
+    "id": 11,
+    "name": "Trench Coat",
+    "category": "outerwear",
+    "price": 890000,
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
+    "description": "Classic trench coat, timeless and polished.",
+    "badge": null
+  },
+  {
+    "id": 12,
+    "name": "Satin Midi Skirt",
+    "category": "bottoms",
+    "price": 340000,
+    "image": "https://images.unsplash.com/photo-1577900232427-18219b9166a0?w=600&q=80",
+    "description": "Lustrous satin skirt that glides with every step.",
+    "badge": "Sale"
+  }
+]
