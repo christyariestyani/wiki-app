@@ -5,11 +5,13 @@ import Banner from './components/Banner';
 import CategoryBar from './components/CategoryBar';
 import ProductGrid from './components/ProductGrid';
 import Cart from './components/Cart';
+import Checkout from './components/Checkout';
 import Footer from './components/Footer';
 
 export default function App() {
   const [category, setCategory] = useState('all');
   const [cartOpen, setCartOpen] = useState(false);
+  const [checkoutOpen, setCheckoutOpen] = useState(false);
   const [cartItems, setCartItems] = useState([]);
   const shopRef = useRef(null);
 
@@ -92,6 +94,15 @@ export default function App() {
           onClose={() => setCartOpen(false)}
           onRemove={removeFromCart}
           onUpdateQty={updateQty}
+          onCheckout={() => { setCartOpen(false); setCheckoutOpen(true); }}
+        />
+      )}
+
+      {checkoutOpen && (
+        <Checkout
+          items={cartItems}
+          onClose={() => setCheckoutOpen(false)}
+          onSuccess={() => setCartItems([])}
         />
       )}
     </div>

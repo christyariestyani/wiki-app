@@ -1,7 +1,7 @@
 const formatPrice = (price) =>
   new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', minimumFractionDigits: 0 }).format(price);
 
-export default function Cart({ items, onClose, onRemove, onUpdateQty }) {
+export default function Cart({ items, onClose, onRemove, onUpdateQty, onCheckout }) {
   const total = items.reduce((sum, item) => sum + item.price * item.qty, 0);
 
   return (
@@ -43,7 +43,7 @@ export default function Cart({ items, onClose, onRemove, onUpdateQty }) {
                 <span>Total</span>
                 <span>{formatPrice(total)}</span>
               </div>
-              <button className="btn-primary full-width">Checkout</button>
+              <button className="btn-primary full-width" onClick={onCheckout}>Checkout</button>
             </div>
           </>
         )}
